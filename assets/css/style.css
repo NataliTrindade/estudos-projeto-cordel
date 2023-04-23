@@ -1,0 +1,14 @@
+:root {
+    --heading-font: font-family: 'Passion One', cursive;
+    --heading-font-size: 8em;
+    --body-font: font-family: 'Sriracha', cursive;
+    --body-font-size: 2.75em;
+    --link-and-footer-font: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    --link-and-footer-font-size: 1em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
