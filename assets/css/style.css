@@ -1,14 +1,123 @@
 :root {
-    --heading-font: font-family: 'Passion One', cursive;
-    --heading-font-size: 8em;
-    --body-font: font-family: 'Sriracha', cursive;
-    --body-font-size: 2.75em;
+    --heading-font: 'Passion One', cursive;
+    --body-font: 'Sriracha', cursive;
     --link-and-footer-font: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
-    --link-and-footer-font-size: 1em;
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    width: 100%;
+    max-width: 100vw;
+    background-color: #000;
+    color: #fff;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-title {
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: max(8vw);
+}
+
+.letter {
+    font-size: max(10vw);
+}
+
+.header-paragraph {
+    font-family: var(--link-and-footer-font);
+    text-align: center;
+    font-size: min(16px, 5vw);
+}
+
+.link-settings {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--link-and-footer-font);
+}
+
+.link-settings:hover {
+    text-decoration: underline;
+}
+
+.section-content {
+    background-color: #fff;
+    width: 100%;
+    min-width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+    font-family: var(--body-font);
+    font-size: 5rem;
+    line-height: 2;
+    text-indent: 40px;
+    padding: 60px 0px;
+    word-wrap: break-word;
+    font-size: min(40px, 10vw);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.container-content {
+    font-size: min(40px, 5vw);
+}
+
+.special-content-section-one {
+    background-image: url(../img/joaninha-background.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.special-container {
+    background-color: #00000052;
+    max-width: 530px;
+    height: auto;
+    margin: 40px;
+    color: #fff;
+}
+
+.special-paragraph {
+    margin-top: 50px;
+}
+
+.special-content-section-two {
+    background-image: url(../img/paper-sheets-backrgound.webp);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-size: max(16px, 1vw);
+    font-family: var(--link-and-footer-font);
+    max-width: 100vw;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
